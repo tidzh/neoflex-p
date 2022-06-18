@@ -2,6 +2,7 @@ import React from "react";
 import Search from "./search";
 import Notifications from "./notifications";
 import UserBio from "./userBio";
+import LogOut from "./log-out";
 
 import "./header.sass";
 
@@ -11,6 +12,7 @@ const UserPanel = () => {
       <Search />
       <Notifications />
       <UserBio />
+      <LogOut />
     </header>
   );
 };
